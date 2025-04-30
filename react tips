@@ -28,3 +28,15 @@ root.render(
 );
 -----------------------
 3. It go---------- App.tsx
+
+4. To Add bootstrap package -- npm install bootstrap
+-------------------------
+5. To add new pagr
+export default function Bharathi() {
+    return (
+        <>
+            <h1>Bharathi</h1>
+        </>
+    );
+}
+
