@@ -1,0 +1,30 @@
+
+install node js
+node --version
+npm --version
+
+F:\reactstudy>npx create-react-app bharathi --template typescript
+
+bharathi(projectname) should always small letter
+
+run the react application ----- npm start
+-------------------------------
+tsx-typescipt specific extension
+
+--------------------------------------------------------------------------------------------------
+1. first bind all html/value in the root id(index.html)
+
+next it go 
+
+2. index.tsx, what is the component its refers inside
+---------------------
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+-----------------------
+3. It go---------- App.tsx
