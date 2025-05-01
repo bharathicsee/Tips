@@ -1,0 +1,87 @@
+import React, { useState } from 'react';
+import logo from './logo.svg';
+import './App.css';
+
+export class AppCls {
+  username: string = "";
+  email: string = "";
+  phoneno: string = "";
+  additionalphoneno: string = "";
+  address: string = "";
+  currentaddress: string = "";
+}
+
+function App() {
+  const [submitted, setSubmitted] = useState<boolean>(false);
+
+  const [formData, setFormData] = useState<AppCls>({
+    username: '',
+    email: '',
+    phoneno: '',
+    additionalphoneno: '',
+    address: '',
+    currentaddress: ''
+  });
+
+  const changeEvent = (e: any) => {
+    const { id, value } = e.target;
+    setFormData(prevState => ({
+      ...prevState,
+      [id]: value
+    }));
+  };
+
+  const save = () => {
+    setSubmitted(true);
+    const isAnyEmpty = Object.values(formData).some(val => val.trim() === '');
+    if (isAnyEmpty) {
+      alert('All fields are required');
+      return;
+    }else{
+
+    }
+    var a='heloo";'
+  }
+
+
+  return (
+
+    <div className="container">
+      <div className="row mt-3">
+        <div className="col-md-6">
+          <input type="text" id="username" className={`form-control ${submitted == true && formData.username.trim()=="" ? 'is-invalid' : ''}`} placeholder="enter user name" onChange={changeEvent} />
+        </div>
+        <div className="col-md-6">
+          <input type="text" id="email" className={`form-control ${submitted == true && formData.email.trim()=="" ? 'is-invalid' : ''}`} placeholder="enter user email" onChange={changeEvent} />
+        </div>
+      </div>
+      <div className="row mt-3">
+        <div className="col-md-6">
+          <input type="number" id="phoneno" className={`form-control ${submitted == true && formData.phoneno.trim()=="" ? 'is-invalid' : ''}`} placeholder="enter user phoneno" onChange={changeEvent} />
+        </div>
+        <div className="col-md-6">
+          <input type="number" id="additionalphoneno" className={`form-control ${submitted == true && formData.additionalphoneno.trim()=="" ? 'is-invalid' : ''}`} placeholder="enter user additional number" onChange={changeEvent} />
+        </div>
+      </div>
+      <div className="row mt-3">
+        <div className="col-md-6">
+          <input type="text" id="address" className={`form-control ${submitted == true && formData.address.trim()=="" ? 'is-invalid' : ''}`} placeholder="enter user address" onChange={changeEvent} />
+        </div>
+        <div className="col-md-6">
+          <input type="text" id="currentaddress" className={`form-control ${submitted == true && formData.currentaddress.trim()=="" ? 'is-invalid' : ''}`} placeholder="enter user current address" onChange={changeEvent} />
+        </div>
+      </div>
+      <div className="row mt-3">
+        <div className="col-md-6">
+
+        </div>
+        <div className="col-md-6">
+          <button className="btn btn-primary" onClick={save}>Save</button>
+        </div>
+      </div>
+    </div>
+
+  );
+}
+
+export default App;
