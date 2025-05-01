@@ -2,7 +2,11 @@
 install node js
 node --version
 npm --version
-
+--------------------------------
+open cmd(command prompt)
+cd F:
+cd reactstudy
+-----------------------------
 F:\reactstudy>npx create-react-app bharathi --template typescript
 
 bharathi(projectname) should always small letter
