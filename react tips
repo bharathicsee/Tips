@@ -4,7 +4,7 @@ node --version
 npm --version
 --------------------------------
 open cmd(command prompt)
-cd F:
+F:
 cd reactstudy
 -----------------------------
 F:\reactstudy>npx create-react-app bharathi --template typescript
