@@ -1,0 +1,3 @@
+first install the nuget package 
+go to dependenceis and right click and click the  manage nuget package 
+search( Microsoft.Data.SqlClient  )
