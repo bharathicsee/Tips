@@ -1,0 +1,12 @@
+git clone https://github.com/bharathicsee/secure-key-exchange-ehr.git copied from browser
+
+go to specific folder where you want it then
+
+copy the branch name from the github and add your files.
+
+git add .
+
+git commit -m "EHR source code added"
+
+git push origin main -f
+git
