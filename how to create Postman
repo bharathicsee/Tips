@@ -1,0 +1,16 @@
+example post method
+1. post
+2.choose body
+3.choose raw 
+4.choose the json file
+5.post method data
+ EXAMPLES:
+{
+    "firstname":"Saravanan",
+    "lastname":"thangavel",
+    "phonene":"987654321233",
+    "address":"chennai",
+    "id":1,
+   "isActive":true
+
+}
