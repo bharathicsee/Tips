@@ -1,0 +1,33 @@
+SOLID PRINCIPLES
+IT'S STANDS FOR 
+1. Single Responsibility Principle (SRP)
+2. Open/Closed Principle (OCP)
+3. Liskov Substitution Principle (LSP)
+4. Interface Segregation Principle (ISP)
+5. Dependency Inversion Principle (DIP)
+---------------------------------------------------------------------------------------------------------------
+1.Single Responsibility Principle (SRP)
+
+A class should have only one reason to change, meaning it should have only one job or responsibility
+
+public class ReportGenerator
+{
+    public string GetReport()
+    {
+        // Generate report
+        return "Report data";
+    }
+}
+public class ReportPrinter
+{
+    public void PrintReport(string report)
+    {
+        // Print report
+        Console.WriteLine(report);
+    }
+}
+// Usage
+var reportGenerator = new ReportGenerator();
+var reportPrinter = new ReportPrinter();
+string report = reportGenerator.GetReport();
+reportPrinter.PrintReport(report);
