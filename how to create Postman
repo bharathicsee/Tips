@@ -14,3 +14,12 @@ example post method
    "isActive":true
 
 }
+ swagger document
+API status code
+200 OK: The request was successful. 
+201 Created: The request resulted in the creation of a new resource. 
+204 No Content: The request was successful, but there's no content to return. 
+400 Bad Request: The server could not understand the request due to invalid syntex
+401 Unauthorized: Authentication is required, or the provided credentials are invalid. 
+404 Not Found: The requested resource could not be found. 
+500 Internal Server Error: A general error occurred on the server.
