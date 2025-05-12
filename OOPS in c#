@@ -1,3 +1,12 @@
 multiple inharitance we can use ,
 EXAMPLE:
 CLASSA:CLASSB,CLASSC,CLASSD,....ETC we can store to mutiple class 
+---------------------------------------------------------------------------------------------------------
+abstraction 
+what is constructor
+public class( Employee) : ControllerBase
+{
+
+    public ( Employee)()
+
+class  name and method name are same name is called constructor  () this symbole mean it by same name 
