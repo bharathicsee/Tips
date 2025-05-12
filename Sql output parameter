@@ -1,0 +1,18 @@
+  ALTER PROCEDURE INSERT_INTO_Employeeinfo
+  ( 
+  @FIRSTNAME     VARCHAR(256),
+  @SECONDNAME    VARCHAR(256),
+  @PHONENO       VARCHAR(12),
+  @ADDRESS       VARCHAR(500),
+  @NewEmployeeID INT OUTPUT ======>output parameter 
+  )
+  AS
+  BEGIN
+    INSERT INTO Employeeinfo(FIRSTNAME,SECONDNAME,PHONENO,ADDRESS)
+	VALUES(@FIRSTNAME,@SECONDNAME,@PHONENO,@ADDRESS)
+	set  @NewEmployeeID =SCOPE_IDENTITY();
+  END
+
+  DECLARE @EmployeeID INT;   ==============>declare for output parameter 
+  EXEC INSERT_INTO_Employeeinfo @FIRSTNAME='BOBBY',@SECONDNAME='STEVE',@PHONENO='98765554321',@ADDRESS='KARUR',      @NewEmployeeID = @EmployeeID OUTPUT;  =============>value declare  to output parameter
+  SELECT @EmployeeID   ===================select output parameter
