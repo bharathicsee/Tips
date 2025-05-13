@@ -27,6 +27,9 @@ a class will behave deffrent implementation in deffrent places or multiple place
 -------------------------------------------------------------------------------------------------------------
 sealed: class it avoid inaharitance becouse it a security purpose
 partial: classs  multiple class with same name 
+--------------------------------------------------------------------------------------------------------
 
+what is interface :
+An interface is another form of an abstract class
 
 
