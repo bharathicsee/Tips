@@ -23,7 +23,7 @@ encapsulation can achieve by access modifier public, private,internal,protected,
 ---------------------------------------------------------------------------------------------------------------------
 polymorphism :
 overloading ,overriding
-a class will behave deffrent opperation in deffrent places or multiple places 
+a class will behave deffrent implementation in deffrent places or multiple places 
 -------------------------------------------------------------------------------------------------------------
 sealed: class it avoid inaharitance becouse it a security purpose
 partial: classs  multiple class with same name 
