@@ -12,21 +12,21 @@ oop is
 
 class  name and method name are same name is called constructor  () this symbole mean it by same name 
 
-what is inharitance
+what is inharitance:
 inharitance is the process of creating  new class to from  exiting class 
 -------------------------------------------------------------------------------------------------------------
 abstraction
  abstration is the blue print of the class 
 --------------------------------------------------------------------------------------------------------------
-encaptulation 
+encaptulation :
 encapsulation can achieve by access modifier public, private,internal,protected,..etc
-polymorphism 
----------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------
+polymorphism :
 overloading ,overriding
 a class will behave deffrent opperation in deffrent places or multiple places 
 -------------------------------------------------------------------------------------------------------------
-sealed class it avoid inaharitance becouse it a security purpose
-partial classs  multiple class with same name 
+sealed: class it avoid inaharitance becouse it a security purpose
+partial: classs  multiple class with same name 
 
 
 
