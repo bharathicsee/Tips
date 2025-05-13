@@ -19,13 +19,13 @@ abstraction
  abstration is the blue print of the class 
 --------------------------------------------------------------------------------------------------------------
 encaptulation 
-encapsulation can active by access modifier public, private,internal,protected,..etc
+encapsulation can achieve by access modifier public, private,internal,protected,..etc
 polymorphism 
 ---------------------------------------------------------------------------------------------------------------
 overloading ,overriding
 a class will behave deffrent opperation in deffrent places or multiple places 
 -------------------------------------------------------------------------------------------------------------
-sealed class it avoid inaharitance becouse it a security purpore
+sealed class it avoid inaharitance becouse it a security purpose
 partial classs  multiple class with same name 
 
 
