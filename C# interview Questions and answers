@@ -1,0 +1,26 @@
+1. What is a class?
+A class is a template to create an object. It contains properties as well as methods.
+
+2. What are the main concepts of object-oriented programming?
+Encapsulation, abstraction, polymorphism, and inheritance are the main concepts of object-oriented programming.
+
+3. What is an object?
+An object is an instance of a class
+
+4. What is a constructor, and what are its different types?
+A constructor is like a method with the same name as the class
+Default constructor, parameterized constructor, copy constructor, static constructor, and private constructor are all different constructor types.
+
+5. What is a destructor in C#?
+A destructor clears out the memory to free up resources and is managed automatically by the garbage collector
+
+6. What are value types and reference types?
+Bool, byte, int, char, and decimal are value types.
+String, class, delegates are reference types.
+
+7.Define an interface and show an example. 
+An interface is another form of an abstract class that has only abstract public methods.
+
+8.What is the static keyword?
+We use the static keyword to create a static class, a static method, or static properties.
+
